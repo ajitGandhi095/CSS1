@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkseagreen;
+    margin: 0 20%;
+}
+#heading{
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 3em;
+}
+#image{
+    display: block;
+    width: 100%;
+}
+#tribute{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 20px 15px rgb(59, 64, 63);
+    padding: 5px 10px;
+    margin-top: 10px;
+
+}
+#footer{
+    margin-bottom: 10px;
+}
+#h2{
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+#para1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
