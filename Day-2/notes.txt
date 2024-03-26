@@ -1,0 +1,51 @@
+//we discussed in HTML till tables
+Just understand how CSS Works
+
+=========
+CSS :-
+==========
+-->Cascading Style Sheets. These are used to include styling/designing into webpages.
+
+-->There are 3 ways to achieve CSS :-
+        1) Inline CSS:- Inline css means in the line of html element, style will applied as a attribute.
+
+        ->ex:- <h1 style="color:red">Something</h1>
+
+        2)Internal CSS :- Internal styling means apply style as a element.
+
+        ->ex: <style>
+              selector{
+                propetry-name:value;
+
+              }
+              </style>
+
+        --> selector can be directly tagnames like h1, div etc..., or classname like 
+            .class1, .class2, etc..., or idnames like #id1, #id2 etc...,
+
+        3)External CSS :-We can write css oin separate file with dot css extension and link that css into html file.
+        <link rel="stylesheet" href="link"/>
+
+
+    CSS Basic Property :-
+    ----------------------
+    --> background-color(hexcode, colorname,rgb,rgba,linear-gradient,radial-gradient), color, text-align,background-image.
+
+        --> /* 0.0 -> light, 1.0-> very dark*/
+        --> hexa decimal -> #000000(black),#ffffff(white).
+
+        --> background repeat -> repeat x,repeat y, no repeat.
+        -->RGB(100,100,100, 0.5).
+        -->Linear gradient(to left, red, blue, yellow).
+        --> redial gradient(red,blue).
+
+-->netlify deploy your website.(folder, must have the project in index folder).
+
+Assignment :-
+
+        ->Implement a basic page to tribute a person 
+
+
+        --> space betn inner value & border -> padding(left,right,top,buttom).
+        -->Space betn one box to another box is called -> margin.
+        -->
