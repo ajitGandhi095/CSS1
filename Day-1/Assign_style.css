@@ -9,3 +9,35 @@ a{
 .header{
     text-align: center;
 }
+#div1{
+    padding-left: 5%;
+}
+.para1{
+    padding-top: 1%;
+    padding: 1%;
+}
+#div2{
+    padding-left: 5%;
+}
+#div3{
+    padding-left: 5%;
+}
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+#div4{
+    padding-left: 5%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.smooth{
+    text-align: center;
+    scroll-behavior: smooth;
+}
