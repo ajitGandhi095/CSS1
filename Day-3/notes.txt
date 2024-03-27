@@ -1,0 +1,48 @@
+Forms :-
+===========================
+--> Form in web pages are used to collect data from user.
+ex:- contact form, login form, registration form, review/feedback, application form.
+
+--> form tag type not compulsary.
+
+--> input is self closing tag. 
+
+--> shortcut(input:text).
+
+--> type:text,email, number, password, date, file, color, datetime-local, image, hidden,   month, week, time, range, url, search(not recommended).
+
+--> placeholder, value:""(used for backend purpose), name.
+
+--> <input type="submit" value="submit">
+
+--> create a simple login form with email & password.
+
+Check Box :-
+-------------
+--> Check box are used for multiple selections.
+--> first input then lavel.
+
+Radio Button:-
+---------------
+--> Radio Button are used for single selections.
+
+
+
+--> deep css ->
+--------------
+--> margin:auto;(center).
+
+--> display: flex;
+--> justify-content: center;
+--> align-item: center;
+
+--> display: grid;
+--> palce-item:center
+
+assignments:-
+----------------------
+1) NETFLIX login page.
+2) Make a student registration form.
+3) Create a multi page tribute form where home represents tribute and about represents you & contact represents contact form.
+
+       (All Site Should Be Live)
