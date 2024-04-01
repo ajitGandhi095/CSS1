@@ -4,15 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./loginSty.css">
 </head>
 <body>
-    <div>
-        <h3>Sign In</h3>
-        <div>
-            <input type="text" placeholder="Email or phone number" name="email"><br><br>
-            <input type="password" placeholder="Password" name="pwd"><br><br>
-            <input type="button" value="Sign In" class="button">
+    <div id="login">
+        <div id="head">
+            <h1>Sign In</h1>
+        </div>    
+        
+        
+        <div id="inpu">
+            <input type="text" placeholder="   Email or phone number" name="email"><br><br>
+            <input type="password" placeholder="   Password" name="pwd"><br><br>
         </div>
-    </div>
+
+        <div id="sign" style="line-height: 1.0;">
+            <input type="submit" value="Sign in" style="background-color: red; border: 1px solid red; color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><br>
+        </div>
+
+        <div id="for">
+            <a href="https://www.netflix.com/in/LoginHelp" style="color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Forgot password?</a>
+        </div>
+            
+        <div id="check">
+            <input type="checkbox" name="checkbox" id="check" style="height: 20px; width: 20px;">
+            <label for="check" style="color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-left: 0.5%;padding-bottom: 0.5%;">Remember me</label>
+        </div> 
+
+        <div id="netflix">
+            <span>New to Netflix?</span>
+            <a href="https://www.netflix.com/in/" style="color: white;"><strong>Sign up now</strong>.</a>
+        </div>
+
+        <div id="footer">
+            <p style="color: darkgray;">This page is protected by Google reCAPTCHA to</p>
+            <p style="color: darkgrey;">ensure you're not a bot. <a href="https://policies.google.com/terms" style="color: blue;">Learn more.</a></p>
+        </div>
+    </div>    
+    
 </body>
 </html>
