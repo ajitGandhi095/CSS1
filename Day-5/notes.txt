@@ -1,0 +1,17 @@
+Regular Expression :
+========================
+--> It is used for pattern, it's a string embranced by '//'. It contains cahracters such as numbers, alphabet and met met cahracters like symbols.
+'/[A-Z]/'
+-> title tag
+-> datalist (same as dropdown)
+-> fieldset
+-> legend
+
+MEDIA :- (Audio & Video)
+==================
+->figure -- It is a fig caption
+  --> figcaption tag
+  --> audio tag (autoplay)
+  --> video tag (source, autoplay, muted)
+  --> picture
+  --> youtube video (embeded, iframe)
