@@ -1,0 +1,16 @@
+background-color, 
+text-align: center
+value-->pre-filled
+-> type=email,then check type email
+-> dropdown: mixture of radio & checkbox
+            --> select tag(it is used to select only one option)
+            -> option tag
+
+--> how to validation In Html
+     : field required ( * )
+     : minlength(password)
+     : maxlength(password)
+     : min, max (phone number)
+     :readonly
+     :enabled
+     :disabled

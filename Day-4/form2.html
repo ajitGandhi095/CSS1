@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM2 | HTML</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1711641420780-658d136f2b64?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" type="image/x-icon">
+</head>
+<body>
+    
+    <h1 class="title">Student Registration Form</h1>
+    <form action="main.py">
+        <div>
+            <label for=""></label><input type="text" value="mr." disabled><br>
+            <label for="fn">First Name:<sup class="re">*</sup></label>
+            <input type="text" id="fn" name="fname" placeholder="Enter First Name" required>
+            <label for="ln">Last Name:</label>
+            <input type="text" id="ln" name="lname" placeholder="Enter Last Name">
+        </div><br>
+    
+        <div>
+            <label for="em">Email:</label>
+            <input type="email" id="em" name="email" placeholder="Enter Email">
+        </div><br>
+        <div>
+            <label for="pws">Password:</label>
+            <input type="password" id="pws" name="password" placeholder="Enter Password" minlength="8" maxlength="16">
+        </div><br>
+        <div>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dateofbirth">
+        </div><br>
+        <div>
+            <label>Choose the Gender</label>
+           <input type="radio" name="gender" id="m" value="male"><label for="m">Male</label>
+           <input type="radio" name="gender" id="f" value="female"><label for="f">Female</label>
+        </div><br>
+        <div>
+            <label for="mob">Phoone Number:</label>
+            <input type="number" id="mob" name="number" placeholder="Enter Mobile Number" min="22" max="55">
+        </div><br>
+        <div>
+            <label>Languages Known:</label>
+            <input type="checkbox" name="Languages" id="en" value="english">
+            <lable for="en">English</lable>
+            <input type="checkbox" name="Languages" id="hi" value="hindi">
+            <lable for="hi">Hindi</lable>
+            <input type="checkbox" name="Languages" id="od" value="odia">
+            <lable for="od">Odia</lable>
+        </div><br>
+        <div>
+            <label>Choose the Course:</label>
+            <select name="" id="">
+                <option value="">Please Choose</option>
+                <option value="BTech">Btech</option>
+                <option value="MTech">MTech</option>
+                <option value="Degree">Degree</option>
+                <option value="MBA">MBA</option>
+                <option value="B.Ed">B.Ed</option>
+            </select>
+        </div><br><br>
+
+        <div>
+            <label>Choose the Subject:</label>
+            <select name="" id="" multiple size="5">
+                <option value="">Please Choose</option>
+                <optgroup label="common">
+                    <option value="Math">Math</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                </optgroup>
+                
+                <optgroup label="Mech">
+                    <option value="Engineering Drawing">Engineering Drawing</option>
+                    <option value="VLSI">VLSI</option>
+                </optgroup>
+
+                <optgroup label="CSE">
+                    <option value="CN">Computer Network</option>
+                    <option value="DBMS">DBMS</option>
+                </optgroup>
+                
+            </select>
+        </div><br>
+        <p>All * fields are mendatory</p>
+        <div>
+            <label for="fb">Enter FeedBack:</label>
+            <textarea name="" id="fb" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <div>
+            <button type="button">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
